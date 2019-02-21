@@ -1,7 +1,7 @@
 
 
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+	# -*- coding: utf-8 -*-
 import random, os
 
 def cls():
@@ -14,7 +14,7 @@ try:
 		print("Error!")
 		exit()
 except ValueError:
-	print("Błędne dane!")
+	print("Incorrect data!")
 	exit()
 #print ("Choose" , hownumb, "numbers from" ,maxnumb, "numbers:")
 #print("Choose %s numbers from %s numbers: " % (hownumb, maxnumb))
