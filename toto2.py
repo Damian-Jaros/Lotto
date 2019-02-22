@@ -35,7 +35,7 @@ for i in range(3):
 		try:
 			type =int(input("Please enter a number %s: " %(i+1)))
 		except ValueError:
-			print("Błędne dane!")
+			print("Incorrect data!!")
 			continue
 		if 0 < type <= maxnumb and type not in choose:
 			choose.add(type)
